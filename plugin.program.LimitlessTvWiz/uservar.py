@@ -7,7 +7,7 @@ ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
 ADDONTITLE     = 'Limitless Tv Wizard'
 EXCLUDES       = [ADDON_ID]
 # Text File with build info in it.
-BUILDFILE      = 'http://downloads.limitlesstvrepo.com/build.zip'
+BUILDFILE      = 'http://downloads.limitlesstvrepo.com/build%20files.zip'
 # How often you would list it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK    = 0
@@ -17,7 +17,7 @@ APKFILE        = 'http://www.limitlesstv.xyz/v2/new-android-tvapp/Limitless%20CC
 YOUTUBETITLE   = ''
 YOUTUBEFILE    = 'http://'
 # Text File for addon installer.  Leave as 'http://' to ignore
-ADDONFILE      = 'http://'
+ADDONFILE      = 'http://www.limitlesstv.xyz/v2/mobile-androidapp/limitless-tv.apk'
 # Text File for advanced settings.  Leave as 'http://' to ignore
 ADVANCEDFILE   = 'http://'
 
@@ -34,17 +34,17 @@ ART            = os.path.join(PATH, 'resources', 'art')
 # Example:  ICONMAINT     = os.path.join(ART, 'mainticon.png')
 #           ICONSETTINGS  = 'http://aftermathwizard.net/repo/wizard/settings.png'
 # Leave as http:// for default icon
-ICONBUILDS     = 'https://www.dropbox.com/s/mrus6ndaeqb4kq3/icon.png'
-ICONMAINT      = 'https://www.dropbox.com/s/mrus6ndaeqb4kq3/icon.png'
-ICONAPK        = 'https://www.dropbox.com/s/mrus6ndaeqb4kq3/icon.png'
-ICONADDONS     = 'https://www.dropbox.com/s/mrus6ndaeqb4kq3/icon.png'
+ICONBUILDS     = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
+ICONMAINT      = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
+ICONAPK        = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
+ICONADDONS     = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
 ICONYOUTUBE    = 'http://'
-ICONSAVE       = 'https://www.dropbox.com/s/mrus6ndaeqb4kq3/icon.png'
+ICONSAVE       = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
 ICONTRAKT      = 'http://'
 ICONREAL       = 'http://'
-ICONLOGIN      = 'https://www.dropbox.com/s/mrus6ndaeqb4kq3/icon.png'
-ICONCONTACT    = 'https://www.dropbox.com/s/mrus6ndaeqb4kq3/icon.png'
-ICONSETTINGS   = 'https://www.dropbox.com/s/mrus6ndaeqb4kq3/icon.png'
+ICONLOGIN      = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
+ICONCONTACT    = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
+ICONSETTINGS   = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
 # Hide the ====== seperators 'Yes' or 'No'
 HIDESPACERS    = 'Yes'
 # Character used in seperator
@@ -71,8 +71,8 @@ HIDECONTACT    = 'No'
 # You can add \n to do line breaks
 CONTACT        = 'Thank you for choosing Limitless Tv Wizard.\r\n\r\nContact us on facebook at http://facebook.com'
 #Images used for the contact window.  http:// for default icon and fanart
-CONTACTICON    = 'https://www.dropbox.com/s/mrus6ndaeqb4kq3/icon.png'
-CONTACTFANART  = 'https://www.dropbox.com/s/z5vlcsn8rq3qgjx/fanart.jpg'
+CONTACTICON    = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
+CONTACTFANART  = 'http://'
 #########################################################
 
 #########################################################
