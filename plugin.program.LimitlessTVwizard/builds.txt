@@ -1,4 +1,4 @@
-name="Test build 1"
+name="Test build  1"
 version="0.2"
 url="http://www.test.limitlesstvrepo.com/Downloads/limitless1.zip"
 gui="http://"
