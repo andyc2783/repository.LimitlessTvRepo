@@ -7,7 +7,7 @@ ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
 ADDONTITLE     = 'Limitless Tv Wizard'
 EXCLUDES       = [ADDON_ID]
 # Text File with build info in it.
-BUILDFILE      = 'http://zipurl.downloads.limitlesstvrepo.com/Downloads/builds.zip'
+BUILDFILE      = 'http://www.test.limitlesstvrepo.com/builds.zip'
 # How often you would list it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK    = 0
@@ -34,17 +34,17 @@ ART            = os.path.join(PATH, 'resources', 'art')
 # Example:  ICONMAINT     = os.path.join(ART, 'mainticon.png')
 #           ICONSETTINGS  = 'http://aftermathwizard.net/repo/wizard/settings.png'
 # Leave as http:// for default icon
-ICONBUILDS     = 'http://zipurl.downloads.limitlesstvrepo.com/Downloads/icon.png'
-ICONMAINT      = 'http://zipurl.downloads.limitlesstvrepo.com/Downloads/icon.png'
-ICONAPK        = 'http://zipurl.downloads.limitlesstvrepo.com/Downloads/icon.png'
-ICONADDONS     = 'http://zipurl.downloads.limitlesstvrepo.com/Downloads/icon.png'
+ICONBUILDS     = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
+ICONMAINT      = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
+ICONAPK        = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
+ICONADDONS     = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
 ICONYOUTUBE    = 'http://'
-ICONSAVE       = 'http://zipurl.downloads.limitlesstvrepo.com/Downloads/icon.png'
+ICONSAVE       = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
 ICONTRAKT      = 'http://'
 ICONREAL       = 'http://'
-ICONLOGIN      = 'http://zipurl.downloads.limitlesstvrepo.com/Downloads/icon.png'
-ICONCONTACT    = 'http://zipurl.downloads.limitlesstvrepo.com/Downloads/icon.png'
-ICONSETTINGS   = 'http://zipurl.downloads.limitlesstvrepo.com/Downloads/icon.png'
+ICONLOGIN      = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
+ICONCONTACT    = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
+ICONSETTINGS   = 'http://limitlesstvrepo.com/repo/downloads.url/icon.png'
 # Hide the ====== seperators 'Yes' or 'No'
 HIDESPACERS    = 'Yes'
 # Character used in seperator
@@ -55,7 +55,7 @@ SPACER         = '='
 COLOR1         = 'dodgerblue'
 COLOR2         = 'white'
 # Primary menu items   / %s is the menu item and is required
-THEME1         = '[COLOR '+COLOR1+'][B][I]([COLOR '+COLOR2+']Limitless Tv[/COLOR])[/B][/COLOR] [COLOR '+COLOR2+']%s[/COLOR][/I]'
+THEME1         = '[COLOR '+COLOR1+'][B][I]([COLOR '+COLOR2+']Limitless TV[/COLOR])[/B][/COLOR] [COLOR '+COLOR2+']%s[/COLOR][/I]'
 # Build Names          / %s is the menu item and is required
 THEME2         = '[COLOR '+COLOR2+']%s[/COLOR]'
 # Alternate items      / %s is the menu item and is required
@@ -71,8 +71,8 @@ HIDECONTACT    = 'No'
 # You can add \n to do line breaks
 CONTACT        = 'Thank you for choosing Limitless Tv Wizard.\r\n\r\nContact us on facebook at http://facebook.com'
 #Images used for the contact window.  http:// for default icon and fanart
-CONTACTICON    = 'http://zipurl.downloads.limitlesstvrepo.com/Downloads/icon.png'
-CONTACTFANART  = 'http://zipurl.downloads.limitlesstvrepo.com/Downloads/fanart.jpg'
+CONTACTICON    = 'https://www.dropbox.com/s/mrus6ndaeqb4kq3/icon.png'
+CONTACTFANART  = 'https://www.dropbox.com/s/z5vlcsn8rq3qgjx/fanart.jpg'
 #########################################################
 
 #########################################################
