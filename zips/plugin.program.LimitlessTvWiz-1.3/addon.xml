@@ -9,7 +9,7 @@
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Limitless Tv Wizard</summary>
-    <description lang="en">Limitless Tv Wizard allows you to get access to the latest Limitless Tv Custom Builds.</description>
+    <description lang="en">Limitless Tv Wizard allows you to get access to the latest Limitless TvCustom Builds.</description>
     <platform>all</platform>
   </extension>
 </addon>
